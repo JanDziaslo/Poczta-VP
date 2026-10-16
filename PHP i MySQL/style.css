@@ -1,0 +1,16 @@
+
+.lista {
+    min-height: 280px;
+}
+
+body {
+    background-color: #121417;
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, .04);
+}
+
+.table .form-check-input {
+    margin: 0;
+}
