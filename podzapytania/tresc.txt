@@ -1,0 +1,16 @@
+Wykonaj zadania. Zapytania napisane w języku SQL prześlij do oceny w jednym pliku. Może być plik *.txt albo *.sql
+
+Zapytania rozwiązujemy z wykorzystaniem podzapytań tzn. musi być przynajmniej 1 poziom zagnieżdżenia.
+
+Zadania
+
+    Wyświetl kod (barcode_ean) i nazwę (description) najdroższego sprzedanego produktu (operujesz sell_price).
+    Wyświetl wszystkie zamówienia (nr i data zamówienia) klienta David  Hudson.
+    Wyświetl klientów (nazwisko i imie), którzy zamówili towary w lipcu 2000 roku.
+    Wyświetl dane produktów zamówionych we wrześniu i droższych od 3$.
+    Wyświetl nazwy i ceny (sell_price) produktów zamawianych w poniedziałki.
+    Wyświetl datę i dzień tygodnia kiedy był sprzedany najtańszy ze sprzedanych produktów.
+    Wyświetl barcode_ean produktów, które nigdy nie były zamawiane .
+    Wyświetl zamówienia klientów (lname, fname, title, date_placed) pochodzących z miejscowości, które w nazwie mają "town".
+    Wyświetl nazwisko i imię klienta, których koszt zamówienia jest większy od średniej ceny wszystkich towarów (operujesz sell_price).
+    Wyświetl klientów (imie i nazwisko), którzy więcej niż 1 raz składali zamówienie.
