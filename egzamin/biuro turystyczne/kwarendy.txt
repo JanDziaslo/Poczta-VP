@@ -1,0 +1,15 @@
+kw1
+
+SELECT id, dataWyjazdu, cel, cena from wycieczki where dostepna = 1
+
+kw2
+
+SELECT nazwaPliku, podpis from zdjecia ORDER BY podpis DESC;
+
+kw3
+
+SELECT cel, cena, podpis from wycieczki join zdjecia on wycieczki.id=zdjecia.id where cena > 1200;
+
+kw4
+
+ALTER TABLE wycieczki ADD liczbaDni int UNSIGNED AFTER dataWyjazdu;
