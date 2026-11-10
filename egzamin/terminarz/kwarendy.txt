@@ -1,0 +1,15 @@
+kw1
+
+SELECT DISTINCT wpis from zadania where dataZadania = '2020-07-01' or dataZadania = '2020-07-07' or wpis is not null;
+
+kw2
+
+SELECT dataZadania, wpis from zadania where miesiac='lipiec';
+
+kw3
+
+SELECT miesiac, wpis from zadania where wpis like 'S%';
+
+kw4
+
+UPDATE zadania set wpis='Wycieczka nad morze' where dataZadania='2020-07-18';
